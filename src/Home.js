@@ -15,8 +15,8 @@ class Home extends React.Component {
           <p> Menu </p>
         </div>
         <div class="intro">
-          <p> image </p>
-          <p>Name </p>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTxEOVTcvf8wEI1bGPVZrCVADRvWGpFsVzrowss8S1SuQl_xJjK" />
+          <p>Mayank Kulkarni</p>
           <p>I am a</p>
         </div>
         <div class="bottom1">
