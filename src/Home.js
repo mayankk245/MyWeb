@@ -10,15 +10,24 @@ class Home extends React.Component {
   }
   render() {
     return (
-      <div class="name">
-        <p>{this.props.name}</p>
-        <p>{this.state.user}</p>
+      <div class="container">
+        <div class="menu">
+          <p> Menu </p>
+        </div>
+        <div class="intro">
+          <p> image </p>
+          <p>Name </p>
+          <p>I am a</p>
+        </div>
+        <div class="bottom1">
+          <p>Down</p>
+        </div>
       </div>
     );
   }
 
   componentWillMount() {
-    this.setState({ user: "Kulkarni" });
+    this.setState({ user: "Abcd" });
   }
 }
 

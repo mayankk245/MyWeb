@@ -1,6 +1,30 @@
-body{
-  background-color: #202020;
+body {
+  background-color: #181818;
 }
-.name{
-color: white;
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.menu {
+  display: flex;
+  height: 20vh;
+  max-height: 100px;
+  color: white;
+  background-color: red;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  color: white;
+  background-color: green;
+  justify-content: center;
+  align-items: center;
+}
+.bottom1 {
+  display: flex;
+  height: 30vh;
+  color: white;
+  background-color: blueviolet;
 }
