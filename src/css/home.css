@@ -1,5 +1,6 @@
 body {
-  background-color: #181818;
+  background-color: black;
+  font-family: monospace;
 }
 .container {
   display: flex;
@@ -19,13 +20,19 @@ body {
 .intro {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   height: 70vh;
   width: 100%;
   min-height: 300px;
+  min-width: 260px;
   color: white;
-
   justify-content: center;
   align-items: center;
+  font-size: 20px;
+}
+#type {
+  font-size: 24px;
+  font-weight: bold;
 }
 .intro img {
   height: 130px;
