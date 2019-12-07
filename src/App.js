@@ -1,15 +1,14 @@
 import React from "react";
-import Axios from "axios";
-import Home from "./Home.js";
+import Navbar from "./components/Navbar";
 
 class App extends React.Component {
   render() {
-    return <Home name="Mayank" />;
-  }
-  componentWillMount() {
-    Axios("google.com").then(response => {
-      console.log(response);
-    });
+    return (
+      <div>
+        <Navbar />
+        <p>this is main app page</p>
+      </div>
+    );
   }
 }
 

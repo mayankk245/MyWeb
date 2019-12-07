@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 5px;
+  flex-wrap: wrap;
+}
+.logo {
+  flex: 1;
+}
+.options {
+  display: flex;
+  flex: 1;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: auto;
+  padding: 3px;
+  list-style-type: none;
+  text-decoration: none;
+  color: grey;
+}
+li {
+  margin-left: 5px;
+}
