@@ -1,12 +1,14 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Container from "./components/Container";
+import "./css/App.css";
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Navbar />
-        <p>this is main app page</p>
+        <div className="box">
+          <Container />
+        </div>
       </div>
     );
   }
