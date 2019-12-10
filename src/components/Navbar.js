@@ -8,15 +8,17 @@ class Navbar extends React.Component {
         <div className="logo">
           <p>MK</p>
         </div>
-        <div className="options">
-          <ul className="link">
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>PROJECTS</li>
-            <li>RESUME</li>
-            <li>CONTACT</li>
-          </ul>
-        </div>
+        <nav>
+          <div className="options">
+            <ul className="link">
+              <li>HOME</li>
+              <li>ABOUT</li>
+              <li>PROJECTS</li>
+              <li>RESUME</li>
+              <li>CONTACT</li>
+            </ul>
+          </div>
+        </nav>
       </div>
     );
   }

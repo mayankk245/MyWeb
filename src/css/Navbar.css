@@ -4,7 +4,6 @@
   flex-basis: 5px;
   flex-wrap: wrap;
   background-color: white;
-  width: auto;
 }
 .logo {
   display: flex;

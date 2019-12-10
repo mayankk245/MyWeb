@@ -1,6 +1,14 @@
 .box {
   display: flex;
-  padding: 20px;
   background-color: blue;
-  margin-left: auto;
+  height: 90vh;
+  flex-basis: 100vh;
+  flex: 1;
+}
+.box-container {
+  display: flex;
+  padding: 3vh;
+}
+body {
+  background-color: orange;
 }
