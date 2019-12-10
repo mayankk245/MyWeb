@@ -8,6 +8,8 @@
   text-shadow: 1.6px 1.6px black;
   font-family: "Courier New";
   font-size: 18px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 .logo {
   display: flex;

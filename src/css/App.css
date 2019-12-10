@@ -5,6 +5,10 @@
   flex-basis: 100vh;
   flex: 1;
   box-shadow: -10px 8px 25px #05386b;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 .box-container {
   display: flex;
