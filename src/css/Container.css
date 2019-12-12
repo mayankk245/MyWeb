@@ -1,9 +1,15 @@
 .container {
   display: flex;
-  flex-basis: 100vh;
+  flex-direction: column;
+  flex-basis: 100vw;
   flex: 1;
 }
 .navbar {
   flex: 1;
-  flex-basis: 100vh;
+  flex-basis: 100vw;
+  max-height: 30px;
+}
+.main-content {
+  margin: auto;
+  transform: translate(0, -50px);
 }

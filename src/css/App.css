@@ -1,9 +1,8 @@
 .box {
   display: flex;
   background-color: white;
-  height: 91vh;
-  flex-basis: 100vh;
-  flex: 1;
+  height: 92vh;
+  flex-basis: 100vw;
   box-shadow: -10px 8px 25px #05386b;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
@@ -12,10 +11,10 @@
 }
 .box-container {
   display: flex;
-  flex-basis: 100vh;
+  flex-basis: 100vw;
   flex: 1;
 }
 body {
   background-color: #8ee4aa;
-  padding: 3vh;
+  margin: 4vh;
 }
